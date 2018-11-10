@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorldComponent implements OnInit {
 
+enemies :Array<string>
   constructor() { }
 
   ngOnInit() {
